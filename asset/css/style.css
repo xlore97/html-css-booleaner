@@ -21,3 +21,35 @@
     left: 10px;
     height: 70px;
 }
+
+
+/* Struttura Main */
+
+/* Definisce una spaziatura sopra il titolo e la grandezza del testo */
+#h1-main {
+    padding-top: 1%;
+    font-size: 4rem;
+}
+
+/* Definisce il colore del testo */
+#the-booleaner {
+    color: rgb(62, 164, 198);
+}
+
+/* Definisce il colore del testo */
+#scritto-da {
+    color: rgb(129, 129, 129);
+}
+
+/* Definisce il colore del testo e la grandezza del testo*/
+#data {
+    color: rgb(129, 129, 129);
+    font-size: 1.3rem;
+}
+
+/* Definisce la spaziatura dall'H1 e la grandezza del testo */
+#scritto-da,
+#the-booleaner {
+    padding-top: 5px;
+    font-size: 2rem;
+}
