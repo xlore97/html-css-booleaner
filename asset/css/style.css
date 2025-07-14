@@ -68,6 +68,58 @@ main {
 
 /* Definisce il quantitativo di spazio occupato dalle due immagini, sistema la proporzione dell'immagine andato a riempire lo spazio */
 #section-immagini img {
-    width: 40%;
+    width: 45%;
     object-fit: cover;
+}
+
+/* Definisce lo spazio sopra il testo e la grandezza di esso */
+#contenuto-post-image {
+    padding-top: 2%;
+    font-size: 2rem;
+}
+
+/* Evidenzia il testo di giallo */
+.evidenzia-testo {
+    background-color: yellow;
+}
+
+/* Definisce uno spazio a sinistra e sopra la lista non ordinata */
+ul {
+    padding-top: 2%;
+    padding-left: 2%;
+}
+
+/* Definisce uno spazio dalla lista non ordinata alle tabelle */
+#tabelle {
+    padding-top: 2%;
+}
+
+/* Estende la tabella in orizzontale al 100% */
+table {
+    width: 100%;
+}
+
+/* Definisce il colore del thead, Il colore del testo, mette il font in bold e allinea il testo a sinistra, Mette uno spazio intorno al testo */
+thead th {
+    background-color: #33B5E5;
+    color: white;
+    font-weight: bold;
+    text-align: left;
+    padding: 10px;
+}
+
+/* Definisce lo spazio intorno al testo nella tabella */
+tbody td {
+    padding: 10px;
+}
+
+/* Definisce quale "riga" deve essere azzurra */
+.azzurro {
+    background-color: #E0F7FA;
+}
+
+/* Definisce lo spazio sopra il testo e la grandezza di esso */
+#contenuto-post-tabella {
+    padding-top: 2%;
+    font-size: 2rem;
 }
