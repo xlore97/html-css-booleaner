@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Struttura Header */
+
+/* Definisce l'immagine di sfondo e la mette in ripetizione, Definisce il colore dello sfondo, Definisce l'altezza del banner, Definisce gli elementi "figli"  */
+.banner {
+    background-image: url('../../img/pattern.png');
+    background-repeat: repeat-x;
+    background-color: #49a6f0;
+    height: 150px;
+    position: relative;
+}
+
+.logo {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    height: 70px;
+}
