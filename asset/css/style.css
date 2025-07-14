@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 /* Struttura Header */
 
 /* Definisce l'immagine di sfondo e la mette in ripetizione, Definisce il colore dello sfondo, Definisce l'altezza del banner, Definisce gli elementi "figli"  */
@@ -7,8 +13,6 @@
     background-color: #49a6f0;
     height: 150px;
     position: relative;
-    margin: -1%;
-    padding: -1%;
 }
 
 .logo {
@@ -21,9 +25,12 @@
 
 /* Struttura Main */
 
+main {
+    padding: 1%;
+}
+
 /* Definisce una spaziatura sopra il titolo e la grandezza del testo */
 #h1-main {
-    padding-top: 1%;
     font-size: 4rem;
 }
 
