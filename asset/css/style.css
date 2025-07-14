@@ -56,3 +56,18 @@ main {
     padding-top: 5px;
     font-size: 2rem;
 }
+
+/* Section immagini */
+
+/* Impostiamo le immagini in orizzontale, aggiungiamo uno spazio tra le immagini, Aggiungiamo uno spazio sopra le immagini */
+#section-immagini {
+    display: flex;
+    gap: 10px;
+    padding-top: 40px;
+}
+
+/* Definisce il quantitativo di spazio occupato dalle due immagini, sistema la proporzione dell'immagine andato a riempire lo spazio */
+#section-immagini img {
+    width: 40%;
+    object-fit: cover;
+}
