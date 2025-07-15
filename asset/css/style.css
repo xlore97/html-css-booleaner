@@ -123,3 +123,43 @@ tbody td {
     padding-top: 2%;
     font-size: 2rem;
 }
+
+/* Struttura Footer */
+footer {
+    padding: 1%;
+}
+
+/* Definisce il colore del testo, la grandezza della scritta e aggiunge uno spazio sotto */
+#potrebbe {
+    color: rgb(129, 129, 129);
+    font-size: 2rem;
+    padding-bottom: 2%;
+}
+
+
+/* Impostiamo le immagini in orizzontale, aggiungiamo uno spazio tra le immagini, Aggiungiamo uno spazio sopra le immagini */
+.immagini-footer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* "unisce" le immagini e ne definisce la grandezza*/
+.immagine-footer {
+    position: relative;
+    display: inline-block;
+    width: 25%;
+}
+
+/* Definiamo la grandezza dentro il "contenitore"  */
+.immagine-footer img {
+    width: 100%;
+}
+
+.testo-immagine {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: white;
+    font-size: 24px;
+}
